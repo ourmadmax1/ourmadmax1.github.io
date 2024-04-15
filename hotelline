@@ -3,58 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Line</title>
-    <!-- Add your CSS file link here -->
-    <link rel="stylesheet" href="styles.css">
+    <title>My American Adventure</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="container">
-            <h1>Hotel Line</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#rooms">Rooms</a></li>
-                    <!-- Add more navigation links as needed -->
-                </ul>
-            </nav>
-        </div>
+        <h1>My American Adventure</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#places">Places I've Visited</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Welcome to Hotel Line</h2>
-            <!-- Add a hero image here -->
-        </div>
-    </section>
+    <main>
+        <article>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Welcome to my blog! My name is [Your Name], and I'm a travel enthusiast. Join me as I explore the beautiful landscapes, diverse cultures, and fascinating history of the United States of America.</p>
+                <!-- Add more about yourself if desired -->
+            </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Write a brief description of your hotel here.</p>
-            <!-- Add more content about your hotel -->
-        </div>
-    </section>
+            <section id="places">
+                <h2>Places I've Visited</h2>
+                <p>During my journey across America, I've had the opportunity to visit some incredible destinations:</p>
+                <ul>
+                    <li>New York City, NY</li>
+                    <li>Grand Canyon, AZ</li>
+                    <li>San Francisco, CA</li>
+                    <!-- Add more places you've visited -->
+                </ul>
+                <!-- Add descriptions and images of each place -->
+            </section>
 
-    <!-- Rooms Section -->
-    <section id="rooms" class="rooms">
-        <div class="container">
-            <h2>Our Rooms</h2>
-            <!-- Add room listings here -->
-        </div>
-    </section>
+            <section id="tips">
+                <h2>Travel Tips</h2>
+                <p>Here are a few tips to make your American adventure unforgettable:</p>
+                <ul>
+                    <li>Plan ahead and research your destinations.</li>
+                    <li>Try local cuisine and explore diverse flavors.</li>
+                    <li>Immerse yourself in the culture by attending festivals and events.</li>
+                    <!-- Add more travel tips -->
+                </ul>
+            </section>
+        </article>
+    </main>
 
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Hotel Line. All rights reserved.</p>
-            <!-- Add links to social media or other relevant information -->
-        </div>
+        <p>&copy; 2024 My American Adventure Blog. All rights reserved.</p>
+        <!-- Add links to your social media profiles or contact information -->
     </footer>
-    <!-- Add your JavaScript file link here -->
-    <script src="script.js"></script>
+
+    <script src="script.js"></script> <!-- Link your JavaScript file here -->
 </body>
 </html>
